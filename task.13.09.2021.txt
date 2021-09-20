@@ -1,0 +1,17 @@
+Tasks For 13-09-2021
+
+Write a blog on Difference between HTTP1.1 vs HTTP2
+
+These are the high-level differences between HTTP1 and HTTP2:
+
+HTTP2 is binary, instead of textual
+HTTP2 is fully multiplexed, instead of ordered and blocking
+HTTP2 can, therefore, use one connection for parallelism
+HTP2 uses header compression to reduce overhead
+HTTP2 allows servers to “push” responses proactively into client caches  
+
+2.Write a blog about objects and its internal representation in Javascript
+
+Objects, in JavaScript, is it’s most important data-type and forms the building blocks for modern JavaScript. 
+These objects are quite different from JavaScript’s primitive data-types(Number, String, Boolean, null, undefined and symbol) 
+in the sense that while these primitive data-types all store a single value each (depending on their types).
